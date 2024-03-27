@@ -1,0 +1,158 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/831/988/large_2x/light-blue-green-pattern-with-circles-abstract-colorful-disks-on-simple-gradient-background-pattern-for-websites-landing-pages-vector.jpg);
+    margin: 0;
+    padding: 0;
+    animation: wave 4s ease-in-out infinite;
+    
+
+  }
+
+  @keyframes wave {
+    0%, 50% {
+      background-position: 0 0, 100px 100px;
+    }
+    50% {
+      background-position: 5px -35px, 100px 100px;
+    }
+  }
+
+  
+
+
+  header {
+    background-color: rgba(16, 141, 99, 0.775);
+    padding: 13px;
+    text-align: right;
+  }
+
+header div {
+  color: antiquewhite;
+  padding: 0;
+  text-align: left;
+  font-size: 25px;
+  bottom: 10%;
+
+
+}
+
+  header a {
+    
+    display: inline;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    padding: 20px;
+  }
+  
+ .image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius:100%;
+    position: relative;
+    left: 300px;
+    top: 200px;
+  }
+  .image1 img {
+    width: 30px;
+    height: 30px;
+    border-radius:100%;
+    position: relative;
+    left: 58%;
+    top: 150px;
+  }
+
+  .image2 img {
+    width: 30px;
+    height: 30px;
+    border-radius:100%;
+    position: relative;
+    left: 62%;
+    top: 115px;
+  }
+
+  .image3 img {
+    width: 33px;
+    height: 33px;
+    border-radius:100%;
+    position: relative;
+    left: 66%;
+    top: 80px;
+  }
+
+.doris {
+    bottom: 150px;
+    position: relative;
+    text-align: right;
+    right: 25%;
+    word-spacing: 10;
+  
+
+}
+
+  .doris h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(97, 15, 15);
+    font-style: italic;
+    font-size: 55px;
+
+  }
+
+  .doris p {
+    color: rgb(21, 19, 19);
+    font-size: 35px;
+    text-indent: 0%;
+    text-align: right;
+    
+   
+  }
+
+  #aboutme {
+   
+    text-align: center;
+    margin: 5%;
+  }
+
+  #aboutme h2 {
+    color: rgb(121, 18, 6);
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  #aboutme p {
+    color: rgb(26, 13, 77);
+    font-size: 20px;
+    text-align-last: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+  #service {
+   
+    text-align: center;
+    margin: 5%;
+   
+  }
+
+  #service h2 {
+    color: rgb(121, 18, 6);
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #service p {
+    color: rgb(26, 13, 77);
+    font-size: 20px;
+    text-align-last: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .image4 img {
+    width: 800px;
+    height: 430px;
+    object-fit: cover;
+    border-radius:5%;
+    position: relative;
+    left: 350px;
+    bottom: 45px;
+  }
